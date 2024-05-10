@@ -16,3 +16,12 @@ Welcome to the Taaz IT Solutions Landing Page! This repository contains the sour
 
    ```bash
    git clone https://github.com/theshubhamgour/TIS_GROUP.git
+
+2. Build the docker image
+```
+docker build -t nginx-test .
+```
+3 . Run the Docker image
+```
+  docker run -itd --name nginx-test -p 80:80 nginx-test:latest
+ ```
